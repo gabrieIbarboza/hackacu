@@ -66,13 +66,13 @@ section {
   max-width: 700px;
 }
 .main .description {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 40px;
 }
 .main a {
   background-color: #141414;
   border-radius: 50px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 15px 40px;
   text-decoration: none;
 }
@@ -85,7 +85,7 @@ section {
   background: #FBFAFE;
 
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .section-app .show-side {
   height: 640px;
@@ -145,7 +145,7 @@ section {
 }
 .section-funcs .funcs {
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1rem;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -190,7 +190,7 @@ section {
   align-items: center;
   color: #F2F9EB;
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   justify-content: center;
   margin-bottom: 200px;
 }
