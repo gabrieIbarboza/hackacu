@@ -221,3 +221,21 @@ footer {
   padding: 30px 50px;
   width: 100%;
 }
+
+@media (max-width: 750px) {
+  .section-download .container {
+    flex-direction: column;
+    height: 100%;
+  }
+  .section-download .container div,
+  .section-download .container a {
+    margin-top: 30px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+  footer div {
+    margin-top: 50px;
+  }
+}
