@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #F2F9EB;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+body {
+  color: #35414B;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antiliased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+}
+
+header img {
+  margin: 10px 0 0 30px;
+  width: 150px;
+}
+
+section {
+  margin: 50px 0;
+  width: 100%;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.main .call-to-action {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.main .call-to-action div {
+  background-color: #F2F9EB;
+  border-radius: 50px;
+  padding: 10px 40px;
+}
+.main .call-to-action div:first-child {
+  background-color: #81C43B;
+  color: #F2F9EB;
+  margin-right: -30px;
+  z-index: 10;
+}
+.main h1 {
+  font-size: 3rem;
+  max-width: 700px;
+}
+.main .description {
+  font-size: 1.2rem;
+  margin: 40px;
+}
+.main a {
+  background-color: #141414;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  padding: 15px 40px;
+  text-decoration: none;
+}
+.main a:hover {
+  box-shadow: inset 0 0 15px rgb(255, 255, 255);
+}
+
+.section-funcs h2 {
+  margin-bottom: 50px;
+}
+.section-funcs .funcs {
+  display: flex;
+  font-size: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-funcs .func-container {
+  margin: 10px 20px;
+  max-width: 300px;
+  width: 100%;
+}
+.section-funcs .func-container .title {
+  font-weight: bold;
+}
+
+.section-team .team {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-team .team .person-container {
+  margin: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 250px;
+}
+.section-team .team .info {
+  border-top: 4px solid #35414B;
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+}
+.section-team .team .info img {
+  margin-right: 15px;
+  width: 50px;
+}
+.section-team .team .info .title {
+  font-weight: bold;
+}
+
+.section-download {
+  align-items: center;
+  color: #F2F9EB;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.section-download .container {
+  align-items: center;
+  background-color: #796EFF;
+  border-radius: 30px;
+  display: flex;
+  height: 250px;
+  justify-content: space-evenly;
+  padding: 50px;
+  width: 80%;
+}
+.section-download .container .text {
+  max-width: 400px;
+}
+.section-download .container a {
+  margin: 0 10px;
+}
+
+footer {
+  align-items: center;
+  background-color: #1D2830;
+  color: #D9DBE1;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+  width: 100%;
+}
