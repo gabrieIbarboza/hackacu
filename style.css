@@ -94,6 +94,7 @@ section {
 .section-app .show-side img {
   display: block;
   margin: auto;
+  height: 100%;
 }
 .section-app .buttons-side {
   display: block;
@@ -220,6 +221,13 @@ footer {
   justify-content: space-between;
   padding: 30px 50px;
   width: 100%;
+}
+
+footer .logo img {
+  background-color: #F2F9EB;
+  border-radius: 50px;
+  padding: 0 5px 10px 5px;
+  width: 150px;
 }
 
 @media (max-width: 750px) {
